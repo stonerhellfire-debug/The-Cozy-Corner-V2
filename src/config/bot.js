@@ -23,9 +23,9 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Custom Status", // required by Discord API, not shown in the client
+        name: "The Cozy Corner", // required by Discord API, not shown in the client
         state: "stalking",     // this is what people actually see
-        type: 4,               // Custom
+        type: 2,               // Custom
       },
     ],
   },
@@ -93,14 +93,14 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#01b7f6",
+      secondary: "#3f0097",
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287",
-      error: "#ED4245",
-      warning: "#FEE75C",
-      info: "#3498DB",
+      success: "#076903",
+      error: "#ff0000",
+      warning: "#c04004",
+      info: "#fd00ff",
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -117,14 +117,14 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#0ffd07",
+        ended: "#10084a",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "#008000",
+        claimed: "#1d0202",
+        closed: "#080808",
+        pending: "#ffffff",
       },
       economy: "#F1C40F",
       birthday: "#E91E63",
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "The Cozy Corner V2",
       // Footer icon URL (null = no icon).
       icon: null,
     },
