@@ -24,7 +24,6 @@ export const botConfig = {
     activities: [
       {
         name: "The Cozy Corner", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
         type: 2,               // Custom
       },
     ],
